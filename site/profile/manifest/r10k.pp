@@ -2,7 +2,7 @@ class profile::r10k {
   
   
   class { 'r10k':
-    remote => 'https://github.com/BorysShulga/pp.git',
+    remote => 'https://github.com/BorysShulga/pp',
   }
   
   
