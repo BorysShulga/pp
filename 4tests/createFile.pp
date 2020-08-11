@@ -2,6 +2,6 @@ file { '/tmp/simpleFile':
                 ensure  => 'present',
                 group   => 'wheel',
                 owner   => 'root',
-                content => 'This is a new code, I want to deploy it by simple push!!!',
+                content => 'Changed in github!',
                 mode    => '0644',
 }
